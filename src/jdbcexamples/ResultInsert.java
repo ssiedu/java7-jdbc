@@ -17,7 +17,7 @@ public class ResultInsert {
       System.out.println("Inserting A New Row");
       rs.moveToInsertRow();
       //updating values for new row
-      rs.updateInt(1, 117);
+      rs.updateInt(1, 110);
       rs.updateString(2,"GGG");
       //rs.updateInt(3, 60000);
       //save the new row to DB
